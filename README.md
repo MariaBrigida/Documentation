@@ -126,9 +126,9 @@ cmake -DCMAKE_MODULE_PATH="$MY_TEST_AREA/PandoraPFA/cmakemodules;$ROOTSYS/etc/cm
 make -j4 install
 
 cd $MY_TEST_AREA
-wget http://bitbucket.org/eigen/eigen/get/3.3.5.tar.gz
-tar -xf 3.3.5.tar.gz
-mv eigen-eigen-b3f3d4950030 Eigen3
+wget https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.tar.gz
+tar -xf eigen-3.3.7.tar.gz
+mv eigen-3.3.7 Eigen3
 cd Eigen3
 mkdir build
 cd build
